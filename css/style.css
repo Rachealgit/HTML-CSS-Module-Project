@@ -126,6 +126,50 @@ header nav ul li a {
     color: #333;
 }
 
+/* New Section  Home page Styles */
+#new-page {
+    background-color: #dea18c;    
+    display: flex;
+    flex-direction: row; /* Keep the image and text in a row */
+    justify-content: space-between; /* Center the entire content in the container */
+    align-items: center; /* Center items vertically */
+    gap: 50px; /* Add spacing between the image and the text button section */
+    height: 50%; /* Full viewport height to vertically center the content */
+}
+
+#new-page img {
+    max-width: 40%; /* Adjust size of the image */
+    height: auto;
+}
+
+.text-btn {
+    display: flex;
+    flex-direction: column; /* Stack the text and button vertically */
+    justify-content: center; /* Center the text and button vertically */
+    align-items: center; /* Center the text and button horizontally */
+    text-align: center; /* Center the text itself */
+    width: 60%; /* Adjust the width of the text container */
+    max-width: 600px; /* Add a maximum width if needed */
+}
+
+#new-page .btn {
+    background-color: #e15526;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 20px; /* Add spacing between the text and button */
+    text-decoration: none;
+}
+
+#new-page h3 {
+    font-size: 2.5rem; /* Adjust font size */
+    line-height: 1.5;
+    margin-bottom: 20px; /* Space between the text and button */
+}
+
+
+
 /* Footer Styles */
 footer {
     padding: 20px;
