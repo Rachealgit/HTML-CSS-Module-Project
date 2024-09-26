@@ -68,11 +68,6 @@ header nav ul li a {
     color: rgb(250, 166, 10);
 }
 
-.store-form div {
-    display: flex;
-    flex-direction: column;
-}
-
 .store-form label {
     margin-bottom: 5px;
     font-weight: bold;
@@ -104,6 +99,21 @@ header nav ul li a {
 
 .store-form button:hover {
     background-color: #d0441e;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group {
+    display: flex;
+    justify-items: flex-start;
+    margin-bottom: 1rem; /* Add space between form fields */
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-left: 10px; /* Add space between input and label */
+    
 }
 
 /* Footer Styles */

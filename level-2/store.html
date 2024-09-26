@@ -16,7 +16,7 @@
             <ul>
                 <li><a href="#">Meet Karma</a></li>
                 <li><a href="#">How it Works</a></li>
-                <li><a href="#">Store</a></li>
+                <li><a href="/index.html">Store</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Help</a></li>
                 <li><a href="#">Login</a></li>
@@ -71,22 +71,23 @@
                     <input id="postcode" name="postcode" type="text" required>
                 </div>
 
-                <div>
-                    <p>Select a colour</p>
-                    <div>
-                        <input type="radio" name="color" id="karma-orange" value="Karma Orange" required>
-                        <label for="karma-orange">Karma Orange</label>
-
-                        <input type="radio" name="color" id="space-gray" value="Space Gray" required>
-                        <label for="space-gray">Space Gray</label>
+                <div class="form-group">
+                    <p>Select a colour</p> 
+                    <div class="input-group">
+                        <label for="KarmaOrange">Karma Orange</label>
+                        <input type="radio" name="colour" id="KarmaOrange" value="Karma Orange">
+                    </div>
+                    <div class="input-group">
+                        <label for="SpaceGray">Space Gray</label>
+                        <input type="radio" name="colour" id="SpaceGray" value="Space Gray">
                     </div>
                 </div>
-
-                <div>
-                    <input type="checkbox" name="terms" id="terms" required>
-                    <label for="terms">By placing your order you agree to Karma's Terms and Conditions.</label>
+            
+                <div class="input-group">
+                    <label for="terms">By placing your order, you agree to Karma's Terms and Conditions.</label>
+                    <input type="checkbox" name="terms" id="terms">
                 </div>
-
+            
                 <div>
                     <button type="submit">Place my order</button>
                 </div>
