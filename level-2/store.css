@@ -1,0 +1,136 @@
+header {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff6633; /* Logo color */
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    font-size: 1rem;
+    color: #333;
+}
+
+
+
+#store-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px; /* Adds space between image and form */
+    padding: 20px;
+    background-color: #f5f0ef;
+}
+
+#store-image-section {
+    width: 100%; /* Adjust size to fit layout */
+}
+
+.store-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+#store-form-section {
+    width: 100%; /* Adjust size to fit layout */
+}
+
+.store-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Add space between form fields */
+}
+
+.store-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(250, 166, 10);
+}
+
+.store-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.store-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.store-form input, 
+.store-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.store-form input[type="radio"], 
+.store-form input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.store-form button {
+    padding: 10px 20px;
+    background-color: #e15526;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.store-form button:hover {
+    background-color: #d0441e;
+}
+
+/* Footer Styles */
+footer {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+footer .social {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer .social li {
+    display: inline-block;
+}
+
+footer .social li img {
+    width: 25px;
+}
